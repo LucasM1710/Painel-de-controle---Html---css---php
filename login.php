@@ -5,12 +5,33 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content= "width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="<?php echo INCLUDE_PATH; ?>estilo/all.css" > 
 	<link href="<?php echo INCLUDE_PATH_PAINEL?>css/style.css" rel="stylesheet"/>
 
 </head>
 <body>
 
 	<div class = "box-login">
+		<?php
+			if(isset($_POST['acao'])){
+				$user = $_POST['user'];
+				$password = $_POST['password'];
+				$sql = MySql::conectar()->prepare("SELECT * FROM `tb_admin.usuarios` WHERE user = ? AND password = ?");
+				$sql->execute(array($user,$password));
+				if($sql->rowCount()==1){
+					//Logamos com sucesso
+					$_SESSION['login']=true;
+					$_SESSION['user']=$user;
+					$_SESSION['password']=$password;
+					header('Location: '.INCLUDE_PATH_PAINEL);
+					die();
+				}else{
+					//Falhou
+					echo '<div class="erro-box"><i class="fa fa-times"></i> Usuário ou senha incorretos!</div>';
+				}
+			}
+
+		?>
 		<h2>Efetue o login:</h2>
 		<form method="post">
 			<input type="text" name="user" placeholder="Login..." required>
