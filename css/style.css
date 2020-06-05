@@ -72,13 +72,6 @@ html,body{
 
 .center{padding: 0 2%;margin:0 auto;}
 
-div.menu{
-	overflow-y: auto;
-	height: 900px;
-	background: #546e7a;
-	float:left;
-	width:300px;
-}
 header{
 	float:left;
 	padding: 10px 0;
@@ -91,6 +84,63 @@ header{
 }
 
 .loggout a{
+	text-decoration: none;
 	color:white;
 	font-size: 28px;
+}
+
+.loggout a > span{
+	font-size:20px;
+	text-decoration: none;
+}
+
+.menu-btn{
+	float:left;
+	cursor:pointer;
+	font-size: 28px;
+	color:white;
+}
+
+div.menu{
+	overflow-y: auto;
+	height: 900px;
+	padding: 10px;
+	background: #546e7a;
+	float:left;
+	width:300px;
+}
+
+div.box-usuario{
+	text-align: center;
+}
+
+.avatar-usuario{
+	text-align: left;
+	display:inline-block;
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	border: 3px solid #263238;
+}
+
+.avatar-usuario i{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform:translate(-50%,-50%);
+	-ms-transform:translate(-50%,-50%);
+	font-size:50px;
+	color:#263238;
+}
+
+.nome-usuario{
+	text-align: center;
+	margin-top: 10px;
+}
+
+.nome-usuario p{
+	color: white;
+	font-size: 15px;
+	font-weight: normal;
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
