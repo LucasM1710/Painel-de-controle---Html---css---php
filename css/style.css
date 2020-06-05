@@ -10,6 +10,11 @@ html,body{
 	background: rgb(225,225,225);
 }
 
+body{
+	overflow-x: hidden;
+
+}
+
 
 /*Página de login*/
 .box-login{
@@ -193,5 +198,11 @@ div.box-usuario{
 	header{
 		left:0;
 		width: 100%;
+	}
+}
+
+@media screen and (max-width: 400px){
+	.menu-wraper{
+		width: 200px;
 	}
 }

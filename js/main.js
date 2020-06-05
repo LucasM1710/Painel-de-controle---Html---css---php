@@ -1,8 +1,11 @@
 $(function(){
 	var open = true;
 	var windowSize = $(window)[0].innerWidth;
+	// ? - seja : - caso contrário
+	var targetSizeMenu = (windowSize <= 400) ? 200 : 300;
 
 	if(windowSize <= 768){
+		$('.menu').css('width','0').css('padding','0');
 		open = false;
 
 	}
@@ -11,13 +14,24 @@ $(function(){
 		//alert('Ok');
 		if(open){
 			//O menu está aberto, precisamos fechar e adaptar nosso conteúdo geral do painel
-			$('.menu').animate({'width':'0'});
-			$('header').animate({'left':'0'});
-			$('header').animate({'width':'100%'});
-			$('.content').animate({'left':'0'});
-			$('.content').animate({'width':'100%'});
+			$('.menu').animate({'width':0,'padding':0},function(){
+				open = false;
+			});
+			$('.content,header').css('width','100%');
+			$('.content,header').animate({'left':0},function(){
+				open=false;
+			});
+		
 		}else{
 			//O menu está fechado.
+			$('.menu').css('display','block');
+			$('.menu').animate({'width':targetSizeMenu+'px','padding':'10px'},function(){
+				open = true;
+			});
+			//$('.content,header').css('width','calc(100% - 300px)');
+			$('.content,header').animate({'left':targetSizeMenu+'px'},function(){
+				open=true;
+			});
 		}
 	})
 })
