@@ -96,7 +96,7 @@ body{
 }
 
 .loggout a{
-	padding: 0 20px;
+	padding: 0 30px;
 	position: relative;
 	top: 4px;
 	text-decoration: none;
@@ -105,7 +105,7 @@ body{
 }
 
 .loggout a > span{
-	font-size: 16px;
+	font-size: 14px;
 	text-decoration: none;
 	font-family: Verdana, Geneva, sans-serif;
 }
@@ -252,7 +252,7 @@ div.box-usuario{
 .box-content{
 	background: white;
 	padding: 30px;
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 }
 
 .box-content h2{
