@@ -482,13 +482,14 @@ a.btn.order{background: #0091ea;}
 
 /*Menu selecionado*/
 .menu-active{
-	background: #3a4b51;
+	background: #090c26;
 }
 
 .menu-active::before{
 	/*
 		Adicionar Seta para qd estiver selecionado.
 	*/
+	content: '-> ';
 }
 
 
