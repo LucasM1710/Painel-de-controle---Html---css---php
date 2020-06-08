@@ -23,8 +23,8 @@
 		</div><!--form-group-->
 
 		<div class="form-group">
-		<label>Data:</label>
-			<input type="text" name="data">
+			<label>Data:</label>
+			<input formato="data" type="text" name="data">
 		</div><!--form-group-->
 
 
