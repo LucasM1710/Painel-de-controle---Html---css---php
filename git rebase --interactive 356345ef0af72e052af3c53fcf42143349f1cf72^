@@ -1,0 +1,125 @@
+[33mcommit 356345ef0af72e052af3c53fcf42143349f1cf72[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Lucas Matheus <Lucasmatheusc@hotmail.com>
+Date:   Tue Jun 9 21:05:54 2020 -0300
+
+    Ordenando Itens
+
+[33mcommit 6a4aa8ca09d66f8786428967552c5b82a2d18b92[m
+Author: Lucas Matheus <Lucasmatheusc@hotmail.com>
+Date:   Tue Jun 9 18:20:02 2020 -0300
+
+    Ordenando itens
+
+[33mcommit 0f7279fb75fc036ec9f3a21c80d4e0c7f84c6be5[m
+Author: Lucas Matheus <Lucasmatheusc@hotmail.com>
+Date:   Mon Jun 8 20:33:01 2020 -0300
+
+    Arrumando responsivo e deletando url em tempo real
+
+[33mcommit 0b527e57ef7e1320ab92538411f6cfe60a727b76[m
+Author: Lucas Matheus <Lucasmatheusc@hotmail.com>
+Date:   Mon Jun 8 19:10:44 2020 -0300
+
+    Paginação
+
+[33mcommit 3a7e8921173bc554c9c76d6841e1a751dae3b271[m
+Author: Lucas Matheus <Lucasmatheusc@hotmail.com>
+Date:   Mon Jun 8 15:07:06 2020 -0300
+
+    Listar dados
+
+[33mcommit 2bb9dd98940e1040b4abf3f2b5177f4144fc567f[m
+Author: Lucas Matheus <Lucasmatheusc@hotmail.com>
+Date:   Mon Jun 8 08:48:49 2020 -0300
+
+    Método dinâmico de cadastro
+
+[33mcommit 75b685a42c9dd692691ecb38a38bd1b260a18167[m
+Author: Lucas Matheus <Lucasmatheusc@hotmail.com>
+Date:   Mon Jun 8 07:11:57 2020 -0300
+
+    Cookie e lembrar login
+
+[33mcommit 8548655f87a57d43172ad7c8a2dd5538a23d4d9c[m
+Author: Lucas Matheus <Lucasmatheusc@hotmail.com>
+Date:   Sun Jun 7 22:20:23 2020 -0300
+
+    Finalizando cadastro de usuário
+
+[33mcommit b6a55b50ce3255883486ba8325d40966e8f7cb0a[m
+Author: Lucas Matheus <Lucasmatheusc@hotmail.com>
+Date:   Sun Jun 7 19:21:46 2020 -0300
+
+    Cadastrando usuários com validação
+
+[33mcommit 75e1f40e7a30da769f7e828d6c672bb2b7ff3a00[m
+Author: Lucas Matheus <Lucasmatheusc@hotmail.com>
+Date:   Sun Jun 7 16:26:16 2020 -0300
+
+    Sistema de permissão
+
+[33mcommit 1a4aa0e8ec373074b5b8768e94e8727da3a13c76[m
+Author: Lucas Matheus <Lucasmatheusc@hotmail.com>
+Date:   Sun Jun 7 12:45:42 2020 -0300
+
+    Editando usuários com upload
+
+[33mcommit b03d59b46a812dbc2318b79c666a4aef668c64a9[m
+Author: Lucas Matheus <Lucasmatheusc@hotmail.com>
+Date:   Sun Jun 7 11:15:51 2020 -0300
+
+    Editando usuários
+
+[33mcommit 1f642e9b7bf3e7cd55e174588aea4d6dbce85483[m
+Author: Lucas Matheus <Lucasmatheusc@hotmail.com>
+Date:   Sat Jun 6 10:01:33 2020 -0300
+
+    Criando contador de visitas no painel
+
+[33mcommit 6e88df8753f60b3163378fdfc1f9515c21b68827[m
+Author: Lucas Matheus <Lucasmatheusc@hotmail.com>
+Date:   Sat Jun 6 06:58:08 2020 -0300
+
+    Iniciando Sistema de Usuário e validação de cadastro no banco de dados
+
+[33mcommit dc630e70c206cb82411386b1567db4606bbab653[m
+Author: Lucas Matheus <Lucasmatheusc@hotmail.com>
+Date:   Fri Jun 5 11:20:58 2020 -0300
+
+    Estilizando painel e arrumando o responsivo
+
+[33mcommit 8d47741bfbe540f24da0431dea1136db1b636b07[m
+Author: Lucas Matheus <Lucasmatheusc@hotmail.com>
+Date:   Fri Jun 5 08:42:28 2020 -0300
+
+    Aplicando mais JavaScript
+
+[33mcommit f2c52849f675078778b875d62f9abea6554caabc[m
+Author: Lucas Matheus <Lucasmatheusc@hotmail.com>
+Date:   Thu Jun 4 23:15:05 2020 -0300
+
+    Iniciando a aplicação do JavaScript
+
+[33mcommit 8112533a38185527d328589c6d563aaf6f9a0303[m
+Author: Lucas Matheus <Lucasmatheusc@hotmail.com>
+Date:   Thu Jun 4 21:59:24 2020 -0300
+
+    Inserindo mais CSS
+
+[33mcommit 7b0fc772edb5cd362c6346df7ca3cffdf3279d19[m
+Author: Lucas Matheus <Lucasmatheusc@hotmail.com>
+Date:   Thu Jun 4 19:40:50 2020 -0300
+
+    Logout e mais HTML/CSS
+
+[33mcommit f92aed1256d184d17c87ef4cddb9fdc7aaaa1e9e[m
+Author: Lucas Matheus <Lucasmatheusc@hotmail.com>
+Date:   Wed Jun 3 21:59:28 2020 -0300
+
+    Login seguro com PHP
+
+[33mcommit 317503deb490ec192881229bb3b04c3f9e8d4cc4[m
+Author: Lucas Matheus <Lucasmatheusc@hotmail.com>
+Date:   Wed Jun 3 19:30:47 2020 -0300
+
+    Criando a tela de login do painel de controle
